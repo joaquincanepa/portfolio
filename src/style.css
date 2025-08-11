@@ -738,3 +738,10 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.page-content {
+  min-height: calc(100vh - 70px); /* 70px = alto del footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

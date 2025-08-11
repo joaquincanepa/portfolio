@@ -6,6 +6,7 @@ import About from "./components/About/AcercaDeMi";
 import Proyectos from "./components/Proyectos/Proyectos";
 import Footer from "./components/Footer";
 import Resume from "./components/Curriculum/Cv";
+import Certificado from "./components/Certificados/Certificados";
 import {
   BrowserRouter as Router,
   Route,
@@ -39,6 +40,7 @@ function App() {
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/acercaDeMi" element={<About />} />
           <Route path="/curriculum" element={<Resume />} />
+          <Route path="/certificado" element={<Certificado />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

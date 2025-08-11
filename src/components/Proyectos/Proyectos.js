@@ -6,13 +6,15 @@ import cerverceria from "../../Assets/Proyectos/cerveceria.png"
 import salaDeJuegos from "../../Assets/Proyectos/salaDeJuegos.png";
 import lineaDeProduccion from "../../Assets/Proyectos/LineaDeProduccion.png";
 import Restaurante from "../../Assets/Proyectos/Restaurante.jpg";
+import Artistas from "../../Assets/Proyectos/Artistas.jpg";
+import Carrito from "../../Assets/Proyectos/CarritoDeCompras.jpg";
 function Proyectos() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mis ultimos <strong className="green">Proyectos </strong>
+          Mis <strong className="green">Proyectos </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={5} className="project-card">
@@ -65,7 +67,29 @@ function Proyectos() {
             Ademas de todo esto utilice como manejo de endpoints y peticiones Xampp y Postman"
             ghLink="https://github.com/joaquincanepa/TP_Progra3_CanepaJoaquin/tree/main"
           />
-          </Col>  
+          </Col>
+          <Col md={5} className="project-card">
+          <CartaProyecto
+            imgPath={Carrito}
+            isBlog={false}
+            title="Carrito de Compras"
+            description="Uno de mis primeros proyectos en el mundo IT: desarrollo de una aplicación web de carrito de compras utilizando HTML, CSS, JavaScript y Bootstrap. Este trabajo marcó el inicio de mi aprendizaje en desarrollo web, permitiéndome aplicar por primera vez conceptos como manipulación del DOM, diseño responsive y experiencia de usuario mejorada mediante SweetAlert. El proyecto incluyó la carga dinámica de productos, 
+            gestión de un carrito interactivo y el uso de estilos personalizados, sentando las bases de mis habilidades actuales en programación."
+            ghLink="https://github.com/joaquincanepa/EntregaProyectoFinalCanepaJoaquin"
+            demoLink="https://entrega-proyecto-final-canepa-joaqu.vercel.app/"
+          />
+          </Col>
+          <Col md={5} className="project-card">
+          <CartaProyecto
+            imgPath={Artistas}
+            isBlog={false}
+            title="Artistas"
+            description="Este proyecto representa mi primera experiencia práctica en el mundo IT y marcó un antes y un después en mi camino como desarrollador. Se trata de una aplicación web sencilla, desarrollada principalmente con HTML, CSS y Bootstrap, tecnologías con las que adquirí una base Para mi futuro. Fue en este proyecto donde tuve mi primer contacto con el mundo IT, lo que me permitió comenzar a entender la lógica de programación y la interacción dinámica dentro de una página web.
+            La aplicación simula ser un portal dedicado a acercar información sobre diversos artistas, ofreciendo a los usuarios una experiencia completa que incluye imágenes representativas, playlists, información sobre próximos eventos y otras novedades relacionadas. "
+            ghLink="https://github.com/joaquincanepa/Artistas-canepa/tree/main"
+            demoLink="https://artistas-canepa-git-main-joaquin-canepas-projects.vercel.app/index.html"
+          />
+          </Col>         
         </Row>
       </Container>
     </Container>

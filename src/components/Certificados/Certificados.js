@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import cert1 from "../../Assets/CertificadoJS.png";
 import cert2 from "../../Assets/CertificadoDesarrolloWEB.png";
 import cert3 from "../../Assets/CertificadoSalesforce.jpeg";
+import cert4 from "../../Assets/CertificadoCiberseguridad.jpeg";
 
 function Certificates() {
   const certificates = [
@@ -23,6 +24,11 @@ function Certificates() {
       img: cert2,
       title: "Certificado Desarrollo WEB",
       description: "Formación en HTML y CSS, con enfoque en diseño responsive, accesibilidad y experiencia de usuario, aplicados en proyectos prácticos. El curso de Desarrollo Web tuvo una duración de 11 semanas (45 horas), donde logré superar todas las evaluaciones y obtener un lugar en el Top 10 de participantes."
+    },
+    {
+      img: cert4,
+      title: "Certificado Ciberseguridad",
+      description: "Formación en fundamentos de ciberseguridad, incluyendo protección de sistemas, gestión de vulnerabilidades, prevención de ataques y buenas prácticas en seguridad informática. El curso de Ciberseguridad tuvo una duración de 9 semanas (18 horas), donde logré cumplir con todos los requisitos académicos y consolidar conocimientos aplicables en entornos reales."
     },
 
   ];

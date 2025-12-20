@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import cert1 from "../../Assets/CertificadoJS.png";
 import cert2 from "../../Assets/CertificadoDesarrolloWEB.png";
 import cert3 from "../../Assets/CertificadoSalesforce.jpeg";
-import cert4 from "../../Assets/CertificadoCiberseguridad.jpeg";
+import cert4 from "../../Assets/CertificadoCiberseguridad.png";
 
 function Certificates() {
   const certificates = [
